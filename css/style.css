@@ -141,7 +141,7 @@ main{
 first div in the grid  and place it in the grid. */
 div:first-child{
   grid-area: 1 / 1 / 1 span / all span;
-  background-image: url(/images/header.jpg);
+  background-image: url(../images/header.jpg);
 }
 /* Steps 6 and 7: Write the selector/rule properties to add place the next elements in the next
  four rows in the grid. */
