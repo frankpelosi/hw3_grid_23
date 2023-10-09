@@ -118,8 +118,6 @@ nav a:focus{
   position: absolute;
   top:-40px;
   display: block;
-  color: #000000;
-  background-color: #ffffff;
 }
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
 .skip a:focus{
@@ -142,7 +140,7 @@ main{
 
 /* Step 5: Write selector/rule property to add the background image to the 
 first div in the grid  and place it in the grid. */
-div:first-child{
+main div:first-child{
   grid-area: 1 / 1 / 1 span / all span;
   background-image: url(../images/header.jpg);
   overflow: auto;
