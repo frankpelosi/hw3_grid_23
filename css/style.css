@@ -122,7 +122,7 @@ nav a:focus{
   background-color: #ffffff;
 }
 /* Step 2b: Write selector/rule property to position the skip class element when it is in focus*/
-.skip a:focus {
+.skip a:focus{
   position:relative;
   top: 60px;
 }
